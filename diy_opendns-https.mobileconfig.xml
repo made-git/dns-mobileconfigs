@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadDisplayName</key>
+        <string>diyOpenDNSFamiliyshieldDoH</string>
+        <key>PayloadIdentifier</key>
+        <string>com.workingpier.dns.diyOpenDNSFamiliyshieldDoH</string>
+        <key>PayloadUUID</key>
+        <string>BA2BD1C9-5616-4EBA-AD74-A09C1DBA0D46</string>
+        <key>PayloadDescription</key>
+        <string>Cloudflare DNS-HTTPS</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadDisplayName</key>
+                <string>OpenDNS Familyshield DNS-HTTPS</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.E2C02493-A088-4142-9E2C-7D8CDC82C665</string>
+                <key>PayloadUUID</key>
+                <string>B8D578A3-A903-4438-816C-684F7E3BC71D</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>ProhibitDisablement</key>
+                <false/>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>208.67.222.123</string>
+                        <string>208.67.220.123</string>
+                        <string>2620:119:35::123</string>
+                        <string>2620:119:53::123</string>
+                    </array>
+                    <key>ServerURL</key>
+                    <string>https://familyshield.opendns.com/dns-query</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
