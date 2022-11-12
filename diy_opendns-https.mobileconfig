@@ -9,7 +9,7 @@
         <key>PayloadUUID</key>
         <string>BA2BD1C9-5616-4EBA-AD74-A09C1DBA0D46</string>
         <key>PayloadDescription</key>
-        <string>Cloudflare DNS-HTTPS</string>
+        <string>OpenDNS Familyshield DNS-HTTPS</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadVersion</key>
